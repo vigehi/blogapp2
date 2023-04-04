@@ -45,7 +45,7 @@ def loginUser(request):
 
 def logoutUser(request):
     logout(request)
-    messages.info(request, "Logged out of Blogapp")
+    messages.info(request, "Logged out of Bloggit")
     return redirect('login')
 
 
@@ -86,8 +86,7 @@ def postlist(request):
     #     posts = post_list.page(post_list.num_pages)
 
     # return render(request,'index.html', {"post_list": posts})
-    return render(request, 'blogapp/index.html')
-
+    return render(request, "index.html")
 
 def fetch(request):
     post_list= Paginator(Post.objects.all().order_by('-created_on'),2)

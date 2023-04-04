@@ -18,7 +18,8 @@ body {
 body {
   width: 100%;
   font-family: Poppins, sans-serif;
-  background-color: #effad3;
+  background-color:   #002366;
+  ;
 }
 
 a {
@@ -27,7 +28,7 @@ a {
 }
 
 div.cred {
-  border: 0.01rem solid #4cf14c;
+  border: 0.01rem solid #002366;
   border-radius: 0.8rem;
   position: absolute;
   top: 50%;
@@ -43,7 +44,7 @@ div.cred h2 {
   font-weight: 600;
   margin-bottom: 2rem;
   text-align: center;
-  color: #2d6187;
+  color: #002366;
 }
 
 div.input {
@@ -73,7 +74,7 @@ div.input::before {
   bottom: -0.01rem;
   width: 0;
   height: 0.05rem;
-  background-color: #28abb9;
+  background-color: #002366;
   left: 0;
   transition: width 0.5s ease;
 }
@@ -88,7 +89,7 @@ a.button {
   padding: 1.5rem 4rem;
   border-radius: 0.8rem;
   border: none;
-  background-color: #2d6187;
+  background-color: #002366;
   color: #ffffff;
   cursor: pointer;
   font-family: inherit;
@@ -118,7 +119,7 @@ a.button:active {
 }
 
 .formfooter p a {
-  color: #28abb9;
+  color: #002366;
   text-decoration: none;
 }
 
@@ -156,7 +157,8 @@ a.button:active {
 }
 
 .success {
-  background-color: #218838;
+  background-color:    #002366;
+  
   color: #ffffff;
 }
 
@@ -186,7 +188,7 @@ header a {
 
 header h1 a {
   font-size: 2.5rem;
-  color: #2d6187;
+  color: #002366;
 }
 
 header nav ul {
@@ -198,7 +200,7 @@ header nav ul {
 
 header nav ul li a {
   font-size: 1.7rem;
-  color: #28abb9;
+  color: #002366;
 }
 
 @media (max-width: 1025px) {
@@ -221,7 +223,7 @@ header nav ul li a {
 
 .form-control {
   border-radius: 8px;
-  border-color: #28abb9;
+  border-color: #002366;
   border-style: hidden;
   height: 3.8rem;
   width: 25rem;
@@ -238,7 +240,7 @@ header nav ul li a {
 
 .description {
   padding: 4rem 0;
-  background-color: #28abb9;
+  background-color:#002366;
   color: #ffffff;
   text-align: center;
 }
@@ -268,7 +270,7 @@ header nav ul li a {
 }
 
 .blog .title {
-  color: #2d6187;
+  color: #002366;
   font-weight: 600;
   font-size: 2.4rem;
 }
@@ -309,7 +311,7 @@ a.button {
 
 .pagination ul li {
   font-size: 1.7rem;
-  border: 0.01rem solid #4cf14c;
+  border: 0.01rem solid #002366;
   border-right: 0;
   background-color: #ffffff;
   font-family: sans-serif;
@@ -329,11 +331,11 @@ a.button {
   border: 0;
   cursor: pointer;
   outline: 0;
-  color: #28abb9;
+  color: #002366;
 }
 
 .pagination ul li:last-child {
-  border-right: 0.01rem solid #4cf14c;
+  border-right: 0.01rem solid #002366;
   border-radius: 0 0.6rem 0.6rem 0;
 }
 
@@ -358,7 +360,7 @@ a.button-red {
 }
 
 a.button-green {
-  background-color: #28a745;
+  background-color: #002366;
 }
 
 .about {
@@ -421,7 +423,7 @@ a.button-green {
   width: 200px;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 25% 75%;
-  color: #48556a;
+  color: #002366;
   font-weight: 500;
 }
 
@@ -435,7 +437,7 @@ a.button-green {
 }
 
 .title {
-  color: #19212e;
+  color: #002366;
   font-weight: 600;
   margin: 3rem 0;
   font-size: 2.1rem;
@@ -468,7 +470,7 @@ a.button-green {
 }
 
 .profile-update form > div label {
-  color: #2d6187;
+  color: #002366;
 }
 
 .profile-update + div {
@@ -500,7 +502,7 @@ a.button-green {
   width: 100%;
   padding: 1rem 2rem;
   border-radius: 0.8rem;
-  border: 0.1rem solid #28abb9;
+  border: 0.1rem solid #002366;
   background: transparent;
 }
 
