@@ -22,6 +22,7 @@ from django.db import IntegrityError
 from taggit.models import Tag
 from django.views.generic import UpdateView, CreateView
 from django.contrib.auth.mixins import LoginRequiredMixin, UserPassesTestMixin
+from django.views.generic.edit import UpdateView
 
 import datetime
 def default(o):

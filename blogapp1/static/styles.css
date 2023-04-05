@@ -365,7 +365,7 @@ a.button-green {
 
 .about {
   padding: 3rem;
-  background-color: #ffffff;
+  background-color: #002366;
   height: calc(100vh - 8rem);
   display: flex;
   align-items: center;
@@ -376,6 +376,7 @@ a.button-green {
   font-family: Poppins, sans-serif;
   font-size: 1.8rem;
   line-height: 1.7;
+  color: #ffffff;
 }
 
 .profile-container {
