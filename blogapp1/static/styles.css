@@ -119,7 +119,7 @@ a.button:active {
 }
 
 .formfooter p a {
-  color: #002366;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -499,3 +499,61 @@ a.button-green {
 .content-section .button {
   margin-bottom: 2rem;
 }
+
+    .content-section {
+        background-color: #002366;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    form {
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .button {
+        background-color: white;
+        color: #002366;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: #0069d9;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    input[type="text"]:focus,
+    textarea:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
