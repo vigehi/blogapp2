@@ -1,6 +1,6 @@
   {% extends 'base.html' %}
 
-{% load crispy_forms_tags %} 
+{% load  %} 
 
 {% block content %}
     <!-- Add header -->
@@ -18,8 +18,8 @@
       <h2>Update Profile</h2>
         <form method="POST" enctype="multipart/form-data">
               {% csrf_token %}
-              {{user_form | crispy}}
-              {{profile_form | crispy}}
+              {{user_form }}
+              {{profile_form }}
               <button type="submit" class="button">Update</button>
         </form>
       <div class="formfooter">

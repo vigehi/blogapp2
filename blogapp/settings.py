@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'blogapp1',
     'rest_framework',
     'taggit',
-    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -132,4 +131,3 @@ EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media') 
 MEDIA_URL = '/media/'
-CRISPY_TEMPLATE_PACK = 'bootstrap5' 
