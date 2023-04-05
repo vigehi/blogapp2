@@ -371,43 +371,11 @@ a.button-green {
   align-items: center;
 }
 
-.about ul {
-  list-style: none;
-}
-
-.about ul li:nth-child(2) {
-  margin: 4.5rem 0;
-}
-
-.about ul li {
+.about > p {
   font-weight: 400;
   font-family: Poppins, sans-serif;
   font-size: 1.8rem;
   line-height: 1.7;
-}
-
-.about ul li:last-child {
-  font-weight: 200;
-  text-align: center;
-}
-
-.imageCollage {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-}
-.imageCollage_text {
-  padding: 20px;
-  background: #e6e6e6;
-  border-radius: 3px;
-  font-size: 1.5rem;
-  width: 300px;
-  margin: 2px;
-}
-.imageCollage img {
-  height: 300px;
-  flex-grow: 1;
-  object-fit: cover;
-  margin: 2px;
 }
 
 .profile-container {
