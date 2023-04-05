@@ -1,6 +1,6 @@
 from . import views
 from django.urls import path
-from .views import PostLikeToggle , PostLikeAPIToggle,ProfileUpdateView,ProfileView,PostUpdateView
+from .views import PostLikeToggle , PostLikeAPIToggle,ProfileUpdateView,ProfileView,PostUpdateView, PostCreateView
 
 urlpatterns = [
     path('login/', views.loginUser, name='login'),
